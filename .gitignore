@@ -1,1 +1,28 @@
-/target
+target/
+**/target/
+
+# Fichiers compilés (binaires, libs)
+*.exe
+*.dll
+*.dylib
+*.so
+*.rlib
+*.a
+
+# Dépendances compilées de build script
+**/*.d
+
+# === Logs ===
+*.log
+
+# === Temp files ===
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# === IDE / Editors ===
+
+# VSCode
+.vscode/
+*.code-workspace
